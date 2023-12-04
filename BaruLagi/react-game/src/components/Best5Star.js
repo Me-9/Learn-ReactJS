@@ -1,9 +1,9 @@
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
-import nahida from "../asset/Best 5 Star Char/Nahida.jpeg";
-import ayaka from "../asset/Best 5 Star Char/Ayaka.jpeg";
-import kazuha from "../asset/Best 5 Star Char/Kaedehara Kazuha.jpeg";
-import raiden from "../asset/Best 5 Star Char/Raiden Shogun.jpeg";
-import kokomi from "../asset/Best 5 Star Char/Sangonomiya Kokomi.jpeg";
+import nahida from '../asset/Best 5 Star Char/Nahida.jpeg';
+import kazuha from '../asset/Best 5 Star Char/Kaedehara Kazuha.jpeg';
+import kokomi from '../asset/Best 5 Star Char/Sangonomiya Kokomi.jpeg';
+import ayaka from '../asset/Best 5 Star Char/Ayaka.jpeg';
+import raiden from '../asset/Best 5 Star Char/Raiden Shogun.jpeg';
 
 const Best5Star = () => {
     return (

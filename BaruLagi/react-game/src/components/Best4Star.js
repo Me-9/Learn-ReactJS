@@ -1,9 +1,9 @@
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
-import bennet from "../asset/Best 4 Star Char/Bennet.jpeg";
-import diona from "../asset/Best 4 Star Char/Diona.jpeg";
-import sucrose from "../asset/Best 4 Star Char/Sucrose.jpeg";
-import xiangling from "../asset/Best 4 Star Char/Xiangling.jpeg";
-import xingqiu from "../asset/Best 4 Star Char/Xingqiu.jpeg";
+import bennet from '../asset/Best 4 Star Char/Bennet.jpeg';
+import diona from '../asset/Best 4 Star Char/Diona.jpeg';
+import sucrose from '../asset/Best 4 Star Char/Sucrose.jpeg';
+import xiangling from '../asset/Best 4 Star Char/Xiangling.jpeg';
+import xingqiu from '../asset/Best 4 Star Char/Xingqiu.jpeg';
 
 const Best4Star = () => {
     return (

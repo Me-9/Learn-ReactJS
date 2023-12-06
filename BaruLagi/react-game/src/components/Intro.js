@@ -1,7 +1,7 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-
 const Intro = () => {
     return (
+        <>
         <div className="intro">
             <Container>
                 <Row>
@@ -15,7 +15,8 @@ const Intro = () => {
                 </Row>
             </Container>
         </div>
+        </>
     )
 }
 
-export default Intro;
+export default Intro();

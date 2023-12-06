@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, Image } from "react-bootstrap";
+import { Container, Card, Col, Row, Image } from "react-bootstrap";
 import bennet from '../asset/Best 4 Star Char/Bennet.jpeg';
 import diona from '../asset/Best 4 Star Char/Diona.jpeg';
 import sucrose from '../asset/Best 4 Star Char/Sucrose.jpeg';
@@ -7,10 +7,10 @@ import xingqiu from '../asset/Best 4 Star Char/Xingqiu.jpeg';
 
 const Best4Star = () => {
     return (
-        <div>
+        <>
             <Container>
                 <br/>
-                <h1 className="text-white text-center" id="trending">TRENDING GAMES</h1>
+                <h1 className="text-white text-center" id="Best4star">BEST 4 STAR CHARACTER</h1>
                 <br/>
                 <Row>
                     <Col md={4}>
@@ -95,8 +95,8 @@ const Best4Star = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </>
     )
 }
 
-export default Best4Star;
+export default Best4Star();

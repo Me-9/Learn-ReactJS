@@ -7,10 +7,10 @@ import raiden from '../asset/Best 5 Star Char/Raiden Shogun.jpeg';
 
 const Best5Star = () => {
     return (
-        <div>
+        <>
             <Container>
                 <br/>
-                <h1 className="text-white text-center" id="trending">TRENDING GAMES</h1>
+                <h1 className="text-white text-center" id="Best5star">BEST 5 STAR CHARACTER</h1>
                 <br/>
                 <Row>
                     <Col md={4}>
@@ -95,8 +95,8 @@ const Best5Star = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </>
     )
 }
 
-export default Best5Star;
+export default Best5Star();

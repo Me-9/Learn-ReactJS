@@ -1,9 +1,10 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
+import React from 'react';
 
-const NavigationBar = () => {
-    return (
-        <>
-        <Navbar>
+export const NavigationBar = () => {
+  return (
+    <div>
+         <Navbar>
             <Container>
                 <Navbar.Brand href="/">GameHolic</Navbar.Brand>
                 <Nav>
@@ -12,8 +13,6 @@ const NavigationBar = () => {
                 </Nav>
             </Container>
         </Navbar>
-    </>
-    )
+    </div>
+  )
 }
-
-export default NavigationBar();

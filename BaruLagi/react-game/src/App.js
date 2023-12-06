@@ -1,9 +1,10 @@
 import './App.css';
-import Best5Star from './components/Best5Star';
-import Best4Star from './components/Best4Star';
-import Intro from './components/Intro';
-import NavigationBar from './components/NavigationBar';
+import { Best5Star } from './components/Best5Star';
+import { Best4Star } from './components/Best4Star';
+import { Intro } from './components/Intro';
+import { NavigationBar } from './components/NavigationBar';
 import "./style/landingPage.css";
+import React from 'react';
 
 function App() {
   return (

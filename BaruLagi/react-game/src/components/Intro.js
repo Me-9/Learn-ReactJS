@@ -1,8 +1,10 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-const Intro = () => {
-    return (
-        <>
-        <div className="intro">
+import React from 'react';
+
+export const Intro = () => {
+  return (
+    <div>
+      <div className="intro">
             <Container>
                 <Row>
                     <Col>
@@ -15,8 +17,6 @@ const Intro = () => {
                 </Row>
             </Container>
         </div>
-        </>
-    )
+    </div>
+  )
 }
-
-export default Intro();
